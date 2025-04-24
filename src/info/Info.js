@@ -188,7 +188,7 @@ export const info = {
             cargo6: "Desenvolvedor Full Stack",
             funcao6: "Manutenção e criação de funcionalidades no sistema SellFlux. ",
             tecnologias6: "Manutenção e desenvolvimento de funcionalidades no sistema SellFlux, com JavaScript, ReactJS, Redux, Craft e Node.js. Criação de interfaces com Material UI e gestão de dados com PostgreSQL via pgAdmin. Testes automatizados com Cypress. Utilização de WSL e Docker em ambientes de desenvolvimento. Controle de versão com BitBucket e organização de tarefas ágeis com ClickUp.",
-            periodo6: "Fev/2024 - Mai/2024"
+            periodo6: "Dez/2024 - Mai/2025"
         },
         {
             empresa5: "Easy360",
