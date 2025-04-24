@@ -90,7 +90,7 @@ export const info = {
     bio: "Olá! sou o Márleo Piber da Rosa, desenvolvedor Full Stack com formação em Análise e Desenvolvimento de Sistemas. Após uma transição de carreira bem-sucedida, estou indo para meu terceiro ano de atuação como desenvolvedor, combinando uma sólida base técnica com 15 anos de experiência prévia em manutenção de hardwares e softwares. Essa trajetória me permitiu construir uma visão completa e prática de desenvolvimento, desde o backend até a experiência do usuário. Sou proativo, comprometido e estou constantemente buscando novas soluções e aprimorando minhas habilidades para acompanhar as tendências tecnológicas.",
     skills:
     {
-        proficientWith: ['GIT', 'Github', 'GitLab', 'JavaScript', 'React', "NextJS", 'HTML5', 'CSS3', 'TypeScript', 'Node', 'MySQL', 'PostgreSQL', 'AWS', 'Cypress', 'WSL', 'Docker', 'WordPress', 'Express', 'Knex'],
+        proficientWith: ['GIT', 'Github', 'GitLab', 'JavaScript', 'React', "NextJS", 'HTML5', 'CSS3', 'TypeScript', 'Node', 'MySQL', 'PostgreSQL', 'AWS', 'Cypress', 'WSL', 'Docker', 'WordPress', 'Express', 'Knex', 'Redux'],
         exposedTo: ['Linux', 'Adobe Photoshop', 'Adobe Premiere', 'Adobe Ligthroom', 'Adobe Illustrator', 'Figma', 'Material UI', 'Chakra UI']
     }
     ,
@@ -184,18 +184,25 @@ export const info = {
     ],
     experiences: [
         {
+            empresa6: "SellFlux",
+            cargo6: "Desenvolvedor Full Stack",
+            funcao6: "Manutenção e criação de funcionalidades no sistema SellFlux. ",
+            tecnologias6: "Manutenção e desenvolvimento de funcionalidades no sistema SellFlux, com JavaScript, ReactJS, Redux, Craft e Node.js. Criação de interfaces com Material UI e gestão de dados com PostgreSQL via pgAdmin. Testes automatizados com Cypress. Utilização de WSL e Docker em ambientes de desenvolvimento. Controle de versão com BitBucket e organização de tarefas ágeis com ClickUp.",
+            periodo6: "Fev/2024 - Mai/2024"
+        },
+        {
             empresa5: "Easy360",
             cargo5: "Desenvolvedor Full Stack",
             funcao5: "Manutenção e criação de funcionalidades no sistema Easy360. ",
             tecnologias5: "Desenvolvimento com JavaScript, TypeScript e ReactJS. Criação de interfaces com Chakra UI. Implementação de serviços AWS. Gestão de dados com PostgreSQL. Desenvolvimento de testes automatizados com Cypress. Utilização de WSL e Docker para ambientes de desenvolvimento. Controle de versão e colaboração de código com GitHub",
-            periodo5: "Fev/2024 - Atualmente"
+            periodo5: "Fev/2024 - Set/2024"
         },
         {
             empresa4: "GestãoDS",
             cargo4: "Desenvolvedor FrontEnd",
             funcao4: "Manutenção e desenvolvimento de funcionalidades no sistema GestãoDS.",
             tecnologias4: "Desenvolvimento com JavaScript, ReactJS e NextJS. Criação de interfaces com com Material UI. Controle de versão com Git e GitLab.",
-            periodo4: "Dez/2022 - SET/2023"
+            periodo4: "Dez/2022 - Set/2023"
         },
         {
             empresa3: "Microempreendedor individual",
