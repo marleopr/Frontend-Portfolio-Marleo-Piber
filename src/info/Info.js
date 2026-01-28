@@ -10,6 +10,7 @@ import mock9 from "../img/mock9.png"
 import mock10 from "../img/mock10.png"
 import mock11 from "../img/mock11.png"
 import mock12 from "../img/mock12.png"
+import mock14 from "../img/mock14.png"
 import icone from "../img/letter-m.png"
 
 /* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
@@ -35,14 +36,14 @@ export const info = {
     // initials: "MPR",
     // eslint-disable-next-line jsx-a11y/alt-text
     initials: <img src={icone} />, // the example uses first and last, but feel free to use three or more if you like.
-    position: " Desenvolvedor Frontend",
+    position: " Desenvolvedor Full Stack",
     selfPortrait: self, // don't change this unless you want to name your self-portrait in the "img" folder something else!
     gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
     baseColor: colors[0],
     miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
         {
             emoji: '👩‍💻',
-            text: 'Trabalho com tecnologia há mais de 15 anos'
+            text: 'Trabalho com tecnologia há quase 20 anos'
         },
         {
             emoji: '🌎',
@@ -87,34 +88,40 @@ export const info = {
         // Just change the links so that they lead to your social profiles.
 
     ],
-    bio: "Olá! sou o Márleo Piber da Rosa, desenvolvedor Full Stack com formação em Análise e Desenvolvimento de Sistemas. Após uma transição de carreira bem-sucedida, estou indo para meu terceiro ano de atuação como desenvolvedor, combinando uma sólida base técnica com 15 anos de experiência prévia em manutenção de hardwares e softwares. Essa trajetória me permitiu construir uma visão completa e prática de desenvolvimento, desde o backend até a experiência do usuário. Sou proativo, comprometido e estou constantemente buscando novas soluções e aprimorando minhas habilidades para acompanhar as tendências tecnológicas.",
+    bio: "Sou Márleo Piber da Rosa, Desenvolvedor Full Stack com formação em Análise e Desenvolvimento de Sistemas e 4 anos de experiência profissional em desenvolvimento de software. Atuo com foco em TypeScript, JavaScript, Node.js, React, APIs REST, bancos de dados relacionais e não relacionais, sempre aplicando boas práticas de arquitetura, código limpo e manutenibilidade. Antes da transição para desenvolvimento, acumulei 15 anos de experiência em hardware, redes e suporte a sistemas, o que me proporciona uma visão técnica completa, orientada a performance, estabilidade e experiência do usuário(UX). Tenho perfil proativo, orientado a soluções e experiência em transformar processos manuais em sistemas eficientes, escaláveis e fáceis de usar. Busco desafios onde possa gerar impacto real através de tecnologia bem aplicada.",
     skills:
     {
-        proficientWith: ['GIT', 'Github', 'GitLab', 'JavaScript', 'React', "NextJS", 'HTML5', 'CSS3', 'TypeScript', 'Node', 'MySQL', 'PostgreSQL', 'AWS', 'Cypress', 'WSL', 'Docker', 'WordPress', 'Express', 'Knex', 'Redux'],
+    proficientWith: ['GIT', 'Github', 'GitLab', 'JavaScript', 'React', "NextJS", 'HTML5', 'CSS3', 'TypeScript', 'Node', 'MySQL', 'PostgreSQL', 'AWS', 'Cypress', 'WSL', 'Docker', 'WordPress', 'Express', 'Knex', 'Redux'],
         exposedTo: ['Linux', 'Adobe Photoshop', 'Adobe Premiere', 'Adobe Ligthroom', 'Adobe Illustrator', 'Figma', 'Material UI', 'Chakra UI']
-    }
+}
     ,
-    hobbies: [
-        {
-            label: 'Novas habilidades como desenvolvedor',
-            emoji: '💻'
-        },
-        {
-            label: 'Drones',
-            emoji: '🚁'
-        },
-        {
-            label: 'Fotografia',
-            emoji: '📷'
-        },
-        {
-            label: 'Astronomia',
-            emoji: '🌠'
-        }
-        // Same as above, change the emojis to match / relate to your hobbies or interests.
-        // You can also remove the emojis if you'd like, I just think they look cute :P
-    ],
+hobbies: [
+    {
+        label: 'Novas habilidades como desenvolvedor',
+        emoji: '💻'
+    },
+    {
+        label: 'Drones',
+        emoji: '🚁'
+    },
+    {
+        label: 'Fotografia',
+        emoji: '📷'
+    },
+    {
+        label: 'Astronomia',
+        emoji: '🌠'
+    }
+    // Same as above, change the emojis to match / relate to your hobbies or interests.
+    // You can also remove the emojis if you'd like, I just think they look cute :P
+],
     portfolio: [ // This is where your portfolio projects will be detailed
+        {
+            title: "Sistema de Gestão de Biblioteca - Full Stack TypeScript ReactJS e Node.js",
+            live: "https://github.com/marleopr/biblioteca-system",
+            source: "https://github.com/marleopr/biblioteca-system",
+            image: mock14
+        },
         {
             title: "Heróis - Case Frontend Azapfy",
             live: "https://marleo-azapfy.vercel.app/",
@@ -182,46 +189,53 @@ export const info = {
             image: mock5
         }
     ],
-    experiences: [
-        {
-            empresa6: "SellFlux",
-            cargo6: "Desenvolvedor Full Stack",
-            funcao6: "Manutenção e criação de funcionalidades no sistema SellFlux. ",
-            tecnologias6: "Manutenção e desenvolvimento de funcionalidades no sistema SellFlux, com JavaScript, ReactJS, Redux, Craft e Node.js. Criação de interfaces com Material UI e gestão de dados com PostgreSQL via pgAdmin. Testes automatizados com Cypress. Utilização de WSL e Docker em ambientes de desenvolvimento. Controle de versão com BitBucket e organização de tarefas ágeis com ClickUp.",
-            periodo6: "Dez/2024 - Mai/2025"
-        },
-        {
-            empresa5: "Easy360",
-            cargo5: "Desenvolvedor Full Stack",
-            funcao5: "Manutenção e criação de funcionalidades no sistema Easy360. ",
-            tecnologias5: "Desenvolvimento com JavaScript, TypeScript e ReactJS. Criação de interfaces com Chakra UI. Implementação de serviços AWS. Gestão de dados com PostgreSQL. Desenvolvimento de testes automatizados com Cypress. Utilização de WSL e Docker para ambientes de desenvolvimento. Controle de versão e colaboração de código com GitHub",
-            periodo5: "Fev/2024 - Set/2024"
-        },
-        {
-            empresa4: "GestãoDS",
-            cargo4: "Desenvolvedor FrontEnd",
-            funcao4: "Manutenção e desenvolvimento de funcionalidades no sistema GestãoDS.",
-            tecnologias4: "Desenvolvimento com JavaScript, ReactJS e NextJS. Criação de interfaces com com Material UI. Controle de versão com Git e GitLab.",
-            periodo4: "Dez/2022 - Set/2023"
-        },
-        {
-            empresa3: "Microempreendedor individual",
-            cargo3: "Especialista em Suporte Técnico, Manutenção de Computadores | Gestão de Redes e Publicidade",
-            funcao3: "Experiência autônoma (MEI) em suporte e manutenção de computadores e gerenciamento de redes. Além disso, tenho habilidades em publicidade, produzindo imagens institucionais, eventos de destaque bem como construção de landing pages com HTML, CSS e WordPress.",
-            tecnologias3: "Utilizando ferramentas como Adobe Photoshop, Lightroom, Premiere Pro e possuo experiência na operação de drones profissionais.",
-            periodo3: "Mar/2019 - Atualmente"
-        },
-        {
-            empresa2: "Base Aérea de Santa Maria - Força Aérea Brasileira",
-            cargo2: "Militar",
-            funcao2: "Atuei nos setores de Tecnologia da Informação, relações públicas e saúde, desempenhando funções de desenvolvimento web (HTML, CSS), suporte de TI (manutenção de hardwares, softwares e redes de internet), auxiliar administrativo e atendimento ao público interno e externo.",
-            periodo2: "Mar/2011 - Mar/2019"
-        },
-        {
-            empresa1: "JaguariNet",
-            cargo1: "Técnico em Infraestrutura e Redes de Internet",
-            funcao1: "Atuando com instalação de infraestrutura de redes de internet bem como gerenciamento de servidores e sistema de provedores de internet.",
-            periodo1: "Jan/2010 - Fev/2011"
-        },
-    ]
+        experiences: [
+            {
+                empresa7: "Easy360",
+                cargo7: "Desenvolvedor Full Stack",
+                funcao7: "Manutenção e criação de funcionalidades no sistema Easy360. ",
+                tecnologias7: "Participação ativa na pivotagem, desenvolvimento, manutenção e evolução de sistema web em produção, com foco em performance, escalabilidade e usabilidade Atuação em arquitetura de aplicações, APIs e integração entre serviços. Participação em rotinas ágeis (Scrum/Kanban), dailies, plannings e code reviews.",
+                periodo7: "Jun/2025 - Fev/2026"
+            },
+            {
+                empresa6: "SellFlux",
+                cargo6: "Desenvolvedor Full Stack",
+                funcao6: "Manutenção e criação de funcionalidades no sistema SellFlux. ",
+                tecnologias6: "Manutenção e desenvolvimento de funcionalidades no sistema SellFlux, com JavaScript, ReactJS, Redux, Craft e Node.js. Criação de interfaces com Material UI e gestão de dados com PostgreSQL via pgAdmin. Testes automatizados com Cypress. Utilização de WSL e Docker em ambientes de desenvolvimento. Controle de versão com BitBucket e organização de tarefas ágeis com ClickUp.",
+                periodo6: "Dez/2024 - Mai/2025"
+            },
+            {
+                empresa5: "Easy360",
+                cargo5: "Desenvolvedor Full Stack",
+                funcao5: "Manutenção e criação de funcionalidades no sistema Easy360. ",
+                tecnologias5: "Desenvolvimento com JavaScript, TypeScript e ReactJS. Criação de interfaces com Chakra UI. Implementação de serviços AWS. Gestão de dados com PostgreSQL. Desenvolvimento de testes automatizados com Cypress. Utilização de WSL e Docker para ambientes de desenvolvimento. Controle de versão e colaboração de código com GitHub",
+                periodo5: "Fev/2024 - Set/2024"
+            },
+            {
+                empresa4: "GestãoDS",
+                cargo4: "Desenvolvedor FrontEnd",
+                funcao4: "Manutenção e desenvolvimento de funcionalidades no sistema GestãoDS.",
+                tecnologias4: "Desenvolvimento com JavaScript, ReactJS e NextJS. Criação de interfaces com com Material UI. Controle de versão com Git e GitLab.",
+                periodo4: "Dez/2022 - Set/2023"
+            },
+            {
+                empresa3: "Microempreendedor individual",
+                cargo3: "Especialista em Suporte Técnico, Manutenção de Computadores | Gestão de Redes e Publicidade",
+                funcao3: "Desenvolvimento de sistemas e aplicações web sob demanda. Criação de sites e páginas institucionais. Levantamento de requisitos e contato direto com clientes",
+                tecnologias3: "JavaScript, Node.js, React, WordPress, HTML, CSS.",
+                periodo3: "Mar/2019 - Atualmente"
+            },
+            {
+                empresa2: "Base Aérea de Santa Maria - Força Aérea Brasileira",
+                cargo2: "Militar",
+                funcao2: "Atuei nos setores de Tecnologia da Informação, relações públicas e saúde, desempenhando funções de desenvolvimento web (HTML, CSS), suporte de TI (manutenção de hardwares, softwares e redes de internet), auxiliar administrativo e atendimento ao público interno e externo.",
+                periodo2: "Mar/2011 - Mar/2019"
+            },
+            {
+                empresa1: "JaguariNet",
+                cargo1: "Técnico em Infraestrutura e Redes de Internet",
+                funcao1: "Atuando com instalação de infraestrutura de redes de internet bem como gerenciamento de servidores e sistema de provedores de internet.",
+                periodo1: "Jan/2010 - Fev/2011"
+            },
+        ]
 }
